@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university>
+    <college name="Engineering">
+        <department name="Computer Science" head="Dr. Alan Smith">
+            <course code="CS101" credits="4">
+                <professor tenure="true">Dr. Jane Doe</professor>
+                <title>Introduction to Computer Science</title>
+                <schedule>
+                    <day>Monday</day>
+                    <day>Wednesday</day>
+                    <time>10:00 AM - 12:00 PM</time>
+                </schedule>
+                <students>
+                    <student id="1001" grade="A" year="2">Alice</student>
+                    <student id="1002" grade="B+" year="2">Bob</student>
+                </students>
+            </course>
+            <course code="CS202" credits="3">
+                <professor tenure="false">Dr. Emily Clark</professor>
+                <title>Data Structures</title>
+                <schedule>
+                    <day>Tuesday</day>
+                    <day>Thursday</day>
+                    <time>1:00 PM - 3:00 PM</time>
+                </schedule>
+                <students>
+                    <student id="1003" grade="B-" year="3">Charlie</student>
+                    <student id="1004" grade="A-" year="3">David</student>
+                </students>
+            </course>
+        </department>
+        <department name="Mechanical Engineering" head="Dr. Robert Miller">
+            <course code="ME101" credits="4">
+                <professor tenure="true">Dr. John Lee</professor>
+                <title>Thermodynamics</title>
+                <schedule>
+                    <day>Monday</day>
+                    <day>Wednesday</day>
+                    <time>9:00 AM - 11:00 AM</time>
+                </schedule>
+                <students>
+                    <student id="1005" grade="B" year="1">Eva</student>
+                    <student id="1006" grade="A+" year="1">Frank</student>
+                </students>
+            </course>
+            <course code="ME202" credits="3">
+                <professor tenure="false">Dr. William Kim</professor>
+                <title>Fluid Mechanics</title>
+                <schedule>
+                    <day>Tuesday</day>
+                    <day>Thursday</day>
+                    <time>2:00 PM - 4:00 PM</time>
+                </schedule>
+                <students>
+                    <student id="1007" grade="C" year="2">Grace</student>
+                    <student id="1008" grade="B+" year="2">Henry</student>
+                </students>
+            </course>
+        </department>
+    </college>
+    <college name="Arts">
+        <department name="History" head="Dr. Susan Brown">
+            <course code="HIS101" credits="3">
+                <professor tenure="true">Dr. Anna White</professor>
+                <title>World History</title>
+                <schedule>
+                    <day>Monday</day>
+                    <day>Wednesday</day>
+                    <time>11:00 AM - 12:30 PM</time>
+                </schedule>
+                <students>
+                    <student id="1009" grade="A" year="2">Isla</student>
+                    <student id="1010" grade="B" year="3">Jack</student>
+                </students>
+            </course>
+        </department>
+        <department name="Philosophy" head="Dr. Kevin Johnson">
+            <course code="PHI201" credits="4">
+                <professor tenure="false">Dr. Michael Green</professor>
+                <title>Ethics</title>
+                <schedule>
+                    <day>Tuesday</day>
+                    <day>Thursday</day>
+                    <time>9:00 AM - 11:00 AM</time>
+                </schedule>
+                <students>
+                    <student id="1011" grade="A-" year="1">Liam</student>
+                    <student id="1012" grade="B+" year="1">Mia</student>
+                </students>
+            </course>
+        </department>
+    </college>
+</university>
